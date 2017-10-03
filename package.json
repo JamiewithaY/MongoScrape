@@ -1,0 +1,28 @@
+{
+  "name": "mongoscrape",
+  "version": "1.0.0",
+  "description": "This is a web app that lets users leave comments on the latest news, but instead of writing articles, news will be scraped from other news sites using Mongoose and Cheerio.  App will include: Express, Express-Handlebars, Mongoose, Body-Parser, Cheerio, Heroku, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamiewithaY/MongoScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamiewithaY/MongoScrape/issues"
+  },
+  "homepage": "https://github.com/JamiewithaY/MongoScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.14",
+    "request": "^2.83.0"
+  }
+}
